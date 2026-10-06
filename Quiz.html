@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Quizs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div id="quiz-button">
+        <a class="go-back-button" data-i18n="goBack" href="./index.html">Go Back</a>
+    </div>
+    <button id="language-toggle" class="language-toggle" type="button" onclick="cycleLanguage()" aria-label="Change language">English</button>
+    <h1 data-i18n="chooseSubject">Choose a Subject</h1>
+    <div id="quiz-container">
+      <div id="quiz-container2">
+        <div id="quiz">
+          <button id="math" onclick="selectSubject('Math')">Math</button>
+        </div>
+      </div>
+      <div id="quiz-container2">
+        <div id="quiz">
+          <button id="science" onclick="selectSubject('Science')">Science</button>
+        </div>
+      </div>
+      <div id="quiz-container2">
+        <div id="quiz">
+          <button id="english" onclick="selectSubject('English')">English</button>
+        </div>
+      </div>
+      <div id="quiz-container2">
+        <div id="quiz">
+          <button id="arabic" onclick="selectSubject('Arabic')">Arabic</button>
+        </div>
+      </div>
+      <div id="quiz-container2">
+        <div id="quiz">
+          <button id="german" onclick="selectSubject('German')">German</button>
+        </div>
+      </div>
+      <div id="quiz-container2">
+        <div id="quiz">
+          <button id="french" onclick="selectSubject('French')">French</button>
+        </div>
+      </div>
+      <div id="quiz-container2">
+        <div id="quiz">
+          <button id="social" onclick="selectSubject('Social')">Social</button>
+        </div>
+      </div>
+      <div id="quiz-container2">
+        <div id="quiz">
+          <button id="ict" onclick="selectSubject('ICT')">ICT</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        &copy; 2026 E-Learn. All rights reserved.
+        <a href="https://github.com/Eyad230">made by Eyad mostafa</a>.
+      </p>
+    </footer>
+    <script src="additional-questions.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
