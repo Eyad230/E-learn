@@ -23,7 +23,10 @@ body {
   color: #000000;
   cursor: pointer;
   font: inherit;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
 }
 
 .language-toggle:hover {
@@ -93,8 +96,7 @@ img {
 }
 
 .landing-container {
-width: fit-content;
-
+  width: fit-content;
 }
 
 #quiz-container2.landing-container {
@@ -122,7 +124,9 @@ width: fit-content;
   border-radius: 15px;
   background-color: transparent;
   color: #000000;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .start-links a:hover {
@@ -178,7 +182,10 @@ width: fit-content;
 }
 
 #quiz button.back-to-subjects {
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
 }
 
 #quiz button.back-to-subjects:hover {
@@ -201,7 +208,10 @@ width: fit-content;
   background-color: #06b5d3;
   color: #000000;
   font-size: 16px;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
 }
 
 .go-back-button:hover {
@@ -314,6 +324,100 @@ footer a {
     font-size: 16px;
     padding: 11px;
   }
+}
+.subject-title {
+  letter-spacing: 0.0em;
+}
+.submit-toggle {
+  padding: 10px 45px;
+  border: 1px solid #06adcb;
+  border-radius: 15px;
+  color: #031722;
+  background-color: #06b5d3;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    color 0.2s ease;
+}
+.rest-toggle {
+  padding: 10px 15px;
+  border: 1px solid #06adcb;
+  border-radius: 15px;
+  color: #031722;
+  background-color: #06b5d3;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    color 0.2s ease;
+}
+.submit-toggle:hover,
+.rest-toggle:hover {
+  transform: translateY(-2px);
+  background: #0f1b2c;
+  color: #06b5d3;
+}
+.submit-toggle,
+.rest-toggle:active {
+  transform: translateY(0);
+}
+.submit-toggle,
+.rest-toggle,
+#phone-selection,
+#password-selection,
+#email-selection,
+#name-selection,
+#age-selection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  margin: 10px 0 20px;
+  margin-top: 30px;
+}
+#phone-selection p,
+#password-selection p,
+#email-selection p,
+#name-selection p,
+#age-selection p {
+  margin: 0;
+  color: #00f7ffc9;
+  font-size: 18px;
+}
+
+#age-selection select {
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: 1px solid #046a7b;
+  background-color: #0f1b2c;
+  color: #e5edf5;
+  font: inherit;
+}
+#phone-selection input,
+#email-selection input,
+#name-selection input,
+#password-selection input {
+  width: 50%;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid #035b6a;
+  background-color: #0f1b2c;
+  color: #e5edf5;
+  font: inherit;
+  box-sizing: border-box;
+}
+#phone-selection input::placeholder,
+#password-selection input::placeholder,
+#email-selection input::placeholder,
+#name-selection input::placeholder {
+  color: #9bb1c5;
 }
 
 h1 {
